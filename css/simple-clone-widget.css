@@ -1,0 +1,21 @@
+.Simple-cloneable .clone-widget-active { float: right; }
+	.Simple-cloneable .widget-title h4 { padding-left: 0; }
+	.Simple-cloneable a.clone-widget {
+		position: absolute;
+		right:40px;
+		border: none;
+		background: none;
+		color: #a0a5aa;
+		display: block;
+		padding: 0;
+		text-align: right;
+		font: normal 12px/1 Arial;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-decoration: none !important;
+		margin-top: 10px; 
+		cursor: pointer; 
+		z-index: 999;
+	}
+	.Simple-cloneable a.clone-widget::after { content: "Clone this!" !important;}
+	.Simple-cloneable:hover a.clone-widget { cursor: pointer; }
